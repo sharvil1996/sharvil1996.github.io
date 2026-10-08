@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharvil Shah - Staff Software Engineer</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+            --accent-color: #0056b3;
+            --card-bg: #fff;
+            --border-color: #e9ecef;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--card-bg);
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 4px solid var(--accent-color);
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0 0 10px;
+            font-size: 2.8rem;
+            color: #212529;
+        }
+        h2 {
+            margin: 0;
+            color: #6c757d;
+            font-size: 1.3rem;
+            font-weight: 400;
+        }
+        .contact-info {
+            margin-top: 15px;
+            font-size: 0.95rem;
+            color: #555;
+        }
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .section {
+            background: var(--card-bg);
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        }
+        .section h3 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 25px;
+            color: #212529;
+            font-size: 1.5rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+        .skill-category strong {
+            color: #495057;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .experience-item {
+            margin-bottom: 35px;
+        }
+        .experience-item:last-child {
+            margin-bottom: 0;
+        }
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 15px;
+        }
+        .experience-header h4 {
+            margin: 0;
+            font-size: 1.25rem;
+            color: #212529;
+        }
+        .experience-header .company {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+        .experience-header .date {
+            color: #6c757d;
+            font-size: 0.95rem;
+        }
+        .experience-item ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+        .experience-item li {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 0.9rem;
+            color: #6c757d;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        @media (max-width: 600px) {
+            .experience-header {
+                flex-direction: column;
+            }
+            .experience-header .date {
+                margin-top: 5px;
+            }
+            .section {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://avatars.githubusercontent.com/u/20029935?v=4" alt="Sharvil Shah">
+    <h1>Sharvil Shah</h1>
+    <h2>Staff Software Engineer | Distributed Systems & Cloud Data Platforms</h2>
+    <div class="contact-info">
+        Ahmedabad, India | 
+        <a href="mailto:sharvilshah1996@gmail.com">sharvilshah1996@gmail.com</a> | 
+        <a href="https://linkedin.com/in/sharvil28" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/sharvil1996" target="_blank">GitHub</a>
+    </div>
+</header>
+
+<div class="container">
+    <div class="section">
+        <h3>Professional Summary</h3>
+        <p>Staff Software Engineer with 8.5+ years of experience designing and scaling distributed systems, cloud-native data platforms, and privacy-preserving analytics infrastructure. Setting technical direction and driving architectural strategy for enterprise-scale backend platforms spanning Java, Apache Spark, Snowflake, Databricks, AWS, and GCP. Currently leading technical strategy and platform architecture for LiveRamp's Cleanroom Platform.</p>
+    </div>
+
+    <div class="section">
+        <h3>Core Skills</h3>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Languages</strong>
+                Java, Go (Golang), Python, SQL
+            </div>
+            <div class="skill-category">
+                <strong>Data & Analytics Platforms</strong>
+                Snowflake, Databricks, Apache Spark, Delta Lake, BigQuery, SQL Optimization
+            </div>
+            <div class="skill-category">
+                <strong>Cloud & Infrastructure</strong>
+                AWS, GCP, Cloud-Native Architecture, Distributed Systems, System Design
+            </div>
+            <div class="skill-category">
+                <strong>Backend & Frameworks</strong>
+                Spring Boot, Microservices, REST APIs, Concurrency, Elasticsearch
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Experience</h3>
+        
+        <div class="experience-item">
+            <div class="experience-header">
+                <h4>Staff Software Development Engineer, <span class="company">LiveRamp</span></h4>
+                <span class="date">Dec 2022 - Present | Hyderabad, India</span>
+            </div>
+            <ul>
+                <li>Set technical direction and own architectural strategy for LiveRamp's enterprise Cleanroom Platform, delivering secure multi-tenant analytics for 70+ enterprise customers, 4,000+ users, and 2,000+ daily queries across Snowflake and Databricks.</li>
+                <li>Led cross-team technical decisions across Snowflake, Databricks, and BigQuery to build a multi-engine execution framework, eliminating vendor lock-in and improving workload flexibility.</li>
+                <li>Drove the technical roadmap for migrating from Spark-managed clusters to Databricks SQL Serverless, improving execution time by ~70% while eliminating OOM failures and disk spill issues.</li>
+                <li>Delivered 30-40% infrastructure cost reduction through query pre-validation and execution optimization strategies.</li>
+                <li>Architected distributed data processing pipelines across AWS and GCP, supporting large-scale enterprise analytics workloads.</li>
+                <li>Designed a runtime identity transcoding framework enabling secure, privacy-preserving analytics without expensive batch preprocessing (patent-pending).</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <h4>Senior Software Engineer, <span class="company">Cornerstone OnDemand</span></h4>
+                <span class="date">Jan 2018 - Dec 2022 | Pune, India</span>
+            </div>
+            <ul>
+                <li>Scaled Elasticsearch platform processing TB-scale enterprise data and millions of search requests, improving search latency by 50%+.</li>
+                <li>Reduced indexing time by ~30% while improving data freshness through pipeline optimization.</li>
+                <li>Built reusable Spring Boot microservices adopted across 4+ product teams.</li>
+                <li>Implemented enterprise-grade SSO and authentication services, strengthening access control.</li>
+                <li>Modernized legacy applications into scalable microservice architecture, improving operational efficiency.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Education & Certifications</h3>
+        <div style="margin-bottom: 20px;">
+            <strong>Master of Science, Information Technology</strong><br>
+            Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT) | 2016 - 2018
+        </div>
+        <div style="margin-bottom: 20px;">
+            <strong>Bachelor of Science, Information Technology</strong><br>
+            K.S. School of Business Management | 2013 - 2016
+        </div>
+        <div>
+            <strong>Certifications:</strong> AWS Certified Cloud Practitioner, Oracle Certified Associate (Java SE 8)
+        </div>
+    </div>
+    
+    <div class="section">
+        <h3>Patents</h3>
+        <p><strong>Co-Inventor:</strong> Identity Interoperability Framework for Privacy-Preserving Data Collaboration (Provisional and Non-Provisional Patent Applications Filed)</p>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; <script>document.write(new Date().getFullYear())</script> Sharvil Shah. Built with HTML & CSS.
+</div>
+
+</body>
+</html>
